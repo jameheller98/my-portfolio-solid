@@ -1,0 +1,48 @@
+.home {
+  padding: var(--size-5) var(--size-8);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-9);
+}
+
+.face-icon {
+  color: var(--yellow-6);
+  background-color: var(--stone-10);
+  border-radius: var(--radius-6);
+}
+
+.introduce {
+  background-color: var(--bg-secondary-color);
+  color: var(--text-secondary-color);
+  padding: var(--size-6) var(--size-8);
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-5);
+}
+
+.avatar {
+  width: var(--size-13);
+  height: var(--size-13);
+  border-radius: var(--radius-6);
+  border: var(--border-size-3) solid var(--border-color);
+  box-shadow: var(--shadow-3);
+}
+
+@media only screen and (min-width: 600px) {
+  .home {
+    padding: var(--size-5) var(--size-10);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .home {
+    padding: var(--size-5) var(--size-12);
+    gap: var(--size-10);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .home {
+    padding: var(--size-5) var(--size-13);
+  }
+}

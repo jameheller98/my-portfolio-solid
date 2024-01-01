@@ -1,0 +1,15 @@
+:root {
+  --light-text: var(--sand-12);
+  --light-bg: var(--sand-0);
+  --light-border: var(--sand-10);
+  --light-bg-secondary: var(--sand-10);
+  --light-text-secondary: var(--sand-1);
+}
+
+[color-schema="light"] {
+  --text-color: var(--light-text);
+  --bg-color: var(--light-bg);
+  --border-color: var(--light-border);
+  --bg-secondary-color: var(--light-bg-secondary);
+  --text-secondary-color: var(--light-text-secondary);
+}

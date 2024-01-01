@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  gap: var(--size-2);
+}
+
+.navbar__item {
+  padding: var(--size-2) var(--size-5);
+}
+
+.navbar__item--active {
+  color: var(--bg-color);
+}
+
+.navbar__motion {
+  background-color: var(--border-color);
+  position: absolute;
+  z-index: -1;
+}

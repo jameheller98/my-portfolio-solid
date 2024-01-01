@@ -1,0 +1,13 @@
+.description {
+  padding: 0 var(--size-5);
+}
+
+.title {
+  margin-bottom: var(--size-4);
+}
+
+.horizontal {
+  position: absolute;
+  height: var(--size-1);
+  background-color: var(--border-color);
+}

@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@motionone/solid": "^10.16.4",
+    "@solidjs/meta": "^0.29.3",
+    "@solidjs/router": "^0.10.5",
+    "open-props": "^1.6.16",
     "solid-js": "^1.8.7"
   },
   "devDependencies": {

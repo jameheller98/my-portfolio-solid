@@ -1,0 +1,20 @@
+.toggle {
+  border-width: var(--border-size-3);
+  border-style: solid;
+  border-radius: var(--radius-5);
+  display: flex;
+  align-items: center;
+}
+
+.toggle__indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  border-radius: var(--radius-6);
+}
+
+.toggle__title {
+  user-select: none;
+  font-size: 20px;
+}

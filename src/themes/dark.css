@@ -1,0 +1,15 @@
+:root {
+  --dark-text: var(--gray-3);
+  --dark-bg: var(--gray-9);
+  --dark-border: var(--gray-5);
+  --dark-bg-secondary: var(--gray-5);
+  --dark-text-secondary: var(--gray-10);
+}
+
+[color-schema="dark"] {
+  --text-color: var(--dark-text);
+  --bg-color: var(--dark-bg);
+  --border-color: var(--dark-border);
+  --bg-secondary-color: var(--dark-bg-secondary);
+  --text-secondary-color: var(--dark-text-secondary);
+}
